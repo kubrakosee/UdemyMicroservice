@@ -17,12 +17,19 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+
+    //BENİM İÇİN ÖNEMLİ OLAN YER BURASI BİR PROJE AYAĞA KALKARKEN DEFAULT TARAYICIDA AYAĞA KALKMASIN
+
     "FreeCourse.Service.Catalog": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
-      "launchBrowser": true,
+      //"launchBrowser": true,
+      "launchBrowser": false, //false yaptık microserviseler çok olduğunda ben uygulamaya ayağa kaldırdığımda bütün microserviseler
+      //de tab açılacak istediğim birşey değil o yüzden false yapıyoruz sonra bakarsak 5000 portuyla ayağa kalkmış artık projeyi IIS le ayağa kaldırmayacağız.Microservise yapıyorsak IIS e unutuyoruz.
+      //
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5000",
+      //"applicationUrl": "http://localhost:5000",
+      "applicationUrl": "http://localhost:5011",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
