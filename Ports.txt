@@ -1,2 +1,28 @@
 Services
 	-catalogAPI=> 5011
+-------18.12.2022------
+SHARED CLASS LIBRARY
+	  -Bu class libraryin içinde microserviceslerde kullanacaðýmýz
+	  ortak classlarýn Dtolu nesnelerin veya bir kaç tane daha yapýmýz olucak
+	  bu ortak olan yapýlarý burda tanýmlayalým.Ve arkasýndanda ilgili microServislere referans olarak
+	  verelim.Busaye de her bir microservice içinde ayrý ayrý ortak olan yapýlarý tanýmlamama gerek kalmayacak
+	  Burda da ilk baþta 3 tane DTO nesnesinden baþlayalým.Sonuçta bunlar bir API y
+	  olacaðýndan dolayý geriye birer Dto nesnesi dönmesi uygun olacak.
+	    --ResponseDto<T> //generic olarak bir nesne alsýn yani 
+		Yani bir Dto nesnesi dönerken de eðer baþarýrýysa  sonucumuz vermiþ olduðum generic
+		T ile beraber bir list olabilir.Bu bir sýnýf olabilir herhangi birþey oalbilir
+
+		--ErrorDto
+
+		--NoContent//genellikle update iþlemlerin de veya delete iþlemlerin de geriye birþey
+		döndürmenize gerek yok.Çünkü update iþleminde zaten update edilecek nesne sana clienttan gelir.
+		Sen bir daha update olmuþ nesneyi bir daha dönmedin anlamý yok.Burda 204 durum  koduyla 
+		beraber bu durum kodunu dönersiniz.
+
+		NOT:Identity Server 3.1 de gelicek.Geri kalan API lerimiz 5.0 sýfýr olucak.Identity Serverýn 3.1 olamsýnýn sebebi
+		ücretli sürüme geçtiði için bu yüzden 3.1 yapýyoruz çünkü 2 yýl boyunca ücretsiz þekilde kullanabileceðiz
+		Farklý bir yol da kullanabiliriz.Ýstersek 3.1 de oluþturursunuz arkasýndan bir 
+		nuget package di oluþturursunuz.Daha sonra 5.0 için de bir nuget paackage oluþturursunuz
+		daha sonra ilgili servicelerinize 5.0 nuget package kullanýr.Identity de
+		3.1 nuget package kullanýr.
+

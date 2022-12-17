@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+4d9yQBjwMkmL+azBIWOIya3RRZrxWEebl129DcxqF12LWGlq5BAtgy6FmMTBvMuvAjDmAkW/hsswyN9rruaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KÜBRA\\.nuget\\packages\\mongodb.bson\\2.18.0\\mongodb.bson.2.18.0.nupkg.sha512",
+    "C:\\Users\\KÜBRA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\KÜBRA\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\KÜBRA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
