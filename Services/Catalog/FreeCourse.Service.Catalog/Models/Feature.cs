@@ -6,6 +6,7 @@
     {
         //burda sadece kursun süresini tutacağız
         public int Duration { get; set; }
+
         //Not şuan biz birebir ilişkiyi göstermek için bu şekilde yapıyoruz.
     }
 }
