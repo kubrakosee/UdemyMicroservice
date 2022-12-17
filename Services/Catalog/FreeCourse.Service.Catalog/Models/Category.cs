@@ -1,4 +1,4 @@
-﻿
+﻿using MongoDB.Bson.Serialization.Attributes;
 
 namespace FreeCourse.Service.Catalog.Models
 {
