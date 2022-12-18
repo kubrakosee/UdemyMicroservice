@@ -25,4 +25,7 @@ SHARED CLASS LIBRARY
 		nuget package di oluþturursunuz.Daha sonra 5.0 için de bir nuget paackage oluþturursunuz
 		daha sonra ilgili servicelerinize 5.0 nuget package kullanýr.Identity de
 		3.1 nuget package kullanýr.
-
+----------18.12.2022-----------------------------------------------------------
+		Dto nesneleri oluþturma
+				Controllerdan Catalogdaki Controllerlardan Liste dönerken birer Dto nesnesi dönmek
+				uygun olucaktýr.
