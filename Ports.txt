@@ -34,3 +34,8 @@ SHARED CLASS LIBRARY
 			AutoMapper servisinde  Dto lardan bizim Catalog ve	Course nesnelerin dönüþtürülmesine ya da tam tersi iþlemleri
 			kolay bir þekilde gerçekleþtirmiþ olucaz.Dependencies sað týkla -Nuget packetten AutoMapper.Extensions.Microsoft.DependencyInjection yüklüyoruz
 			Sonra Startup.cs ye gel
+
+		Appsetting.json
+				veritabaný yolunu veritabanýmýzýn ismini collectionlarýný bunlarý ayarlayacaðýz
+				þuan API y tasarlýyoruz.
+				

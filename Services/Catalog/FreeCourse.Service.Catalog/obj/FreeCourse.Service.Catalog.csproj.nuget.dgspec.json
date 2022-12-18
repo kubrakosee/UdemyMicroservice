@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj": {}
+    "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj": {
+    "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj",
+        "projectUniqueName": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj",
         "projectName": "FreeCourse.Service.Catalog",
-        "projectPath": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj",
+        "projectPath": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\FreeCourse.Service.Catalog.csproj",
         "packagesPath": "C:\\Users\\KÜBRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\obj\\",
+        "outputPath": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Services\\Catalog\\FreeCourse.Service.Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.0, )",

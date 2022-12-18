@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {}
+    "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+    "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
         "projectName": "FreeCourse.Shared",
-        "projectPath": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "projectPath": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
         "packagesPath": "C:\\Users\\KÜBRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KÜBRA\\Source\\Repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\obj\\",
+        "outputPath": "C:\\Users\\KÜBRA\\source\\repos\\kubrakosee\\UdemyMicroservice\\Shared\\FreeCourse.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
