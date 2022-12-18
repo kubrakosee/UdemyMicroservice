@@ -7,3 +7,5 @@
 /.vs/slnx.sqlite
 /.vs/UdemyMicroservice/DesignTimeBuild
 /.vs/VSWorkspaceState.json
+/Shared/FreeCourse.Shared/obj/Release/netcoreapp3.1
+/Services/Catalog/FreeCourse.Service.Catalog/obj/Release/net5.0
