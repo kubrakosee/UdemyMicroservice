@@ -29,3 +29,8 @@ SHARED CLASS LIBRARY
 		Dto nesneleri oluþturma
 				Controllerdan Catalogdaki Controllerlardan Liste dönerken birer Dto nesnesi dönmek
 				uygun olucaktýr.
+		
+		AutoMapper Library
+			AutoMapper servisinde  Dto lardan bizim Catalog ve	Course nesnelerin dönüþtürülmesine ya da tam tersi iþlemleri
+			kolay bir þekilde gerçekleþtirmiþ olucaz.Dependencies sað týkla -Nuget packetten AutoMapper.Extensions.Microsoft.DependencyInjection yüklüyoruz
+			Sonra Startup.cs ye gel

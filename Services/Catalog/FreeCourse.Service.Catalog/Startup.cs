@@ -1,15 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FreeCourse.Service.Catalog
 {
@@ -25,6 +19,9 @@ namespace FreeCourse.Service.Catalog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //AutoMapper.Extensions.Microsoft.DependencyInjection yükledikten sonra
+            services.AddAutoMapper(typeof(Startup));
+            //bu startupdaki classlarýn baðlý olduðu sml deki tüm mapperlarý tarayacak kendisi HANGÝ mapperlarý tarayacak hemen projeye gel sað týkla new folder de MAPPÝNG adýnda klasör oluþtur içine class oluþtur adý da GeneralMapping diyelim genel olsun
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

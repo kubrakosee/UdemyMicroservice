@@ -9,3 +9,5 @@
 /.vs/VSWorkspaceState.json
 /Shared/FreeCourse.Shared/obj/Release/netcoreapp3.1
 /Services/Catalog/FreeCourse.Service.Catalog/obj/Release/net5.0
+/Services/Catalog/FreeCourse.Service.Catalog/bin/Debug/net5.0
+/Shared/FreeCourse.Shared/obj/Debug/netcoreapp3.1
